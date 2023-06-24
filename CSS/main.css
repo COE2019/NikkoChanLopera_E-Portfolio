@@ -1,0 +1,92 @@
+/*
+accent color: #00ffc6
+
+*/
+:root{
+    --Background-color:#080813;
+    --accent-color: #00ffc6;
+    --title-text: #ffffff;
+    --body-text: #f0f0eb;
+}
+
+a{
+    cursor: pointer;
+}
+body {
+    background-color: var();
+}
+
+.header-main{
+    width: 100%;
+    height: 80px;
+    line-height: 10px;
+    padding-top: 10px;
+    background-color: var(--Background-color);
+    color: var(--body-text);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-main-logo{
+    width: fit-content;
+    height: 65px;
+    padding-left: 10px;
+  
+}
+.header-main-logo img{
+    height: 100%;
+    align-self: center;
+}
+
+.header-main-nav{
+    width: fit-content;
+    height: 100%;
+ 
+    display: flex;
+    
+}
+
+.header-main-nav ul{
+
+}
+
+.header-main-nav ul li{
+    display: inline;
+    float: left;
+
+}
+
+.header-main-nav ul li a{
+    margin-right: 30px;
+    line-height: 60px;
+}
+
+.header-main-nav ul li a:hover{
+    color: var(--accent-color);
+}
+
+.header-main-resume{
+    width: 120px;
+    height: 100%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-main-resume a{
+    color: #00ffc6;
+    border: 2px solid #00ffc6;
+    margin-bottom: 7px;
+    padding: 15px 15px;
+    border-radius: 3px;
+    transition: box-shadow 0.3s, background-color 0.3s; /* Add transition for smooth color change */
+
+}
+
+.header-main-resume a:hover{
+    color: var(--body-text);
+    box-shadow: 0 0 0 1px #00ffc6; /* Add a larger box-shadow to create the effect */
+    background-color: #00ffc8ad;
+}
