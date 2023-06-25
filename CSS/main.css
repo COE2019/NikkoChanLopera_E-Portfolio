@@ -6,7 +6,7 @@ accent color: #00ffc6
     --Background-color:#080813;
     --accent-color: #00ffc6;
     --title-text: #ffffff;
-    --body-text: #f0f0eb;
+    --body-text: #d5d5ec;
 }
 
 a{
@@ -14,10 +14,21 @@ a{
     cursor: pointer;
     
 }
+
 h1{
-   font-size: 50px; 
-   line-height: 60px;
-   font-weight: 600;
+   font-size: 70px; 
+   line-height: 80px;
+   font-weight: 800;
+}
+
+h2{
+
+}
+
+h3{
+    font-size: 70px; 
+   line-height: 70px;
+   font-weight: 800;
 }
 
 p{
@@ -32,6 +43,8 @@ body {
 }
 
 .header-main{
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 80px;
     line-height: 10px;
@@ -41,17 +54,20 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: 'Lato', sans-serif;
+    z-index: 1000;
 }
 
 .header-main-logo{
     width: fit-content;
     height: 65px;
-    padding-left: 10px;
-  
+    padding-left: 50px;
+ 
 }
 .header-main-logo img{
-    height: 100%;
-    align-self: center;
+    height: 80%;
+    margin-top: 8px;
+    justify-self: center;
+    
 }
 
 .header-main-nav{
@@ -84,7 +100,7 @@ body {
 .header-main-resume{
     width: 120px;
     height: 100%;
-    margin-right: 20px;
+    margin-right: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +117,7 @@ body {
 }
 
 .header-main-resume a:hover{
-    color: var(--body-text);
+    color: var(--title-text);
     box-shadow: 0 0 0 1px #00ffc6; /* Add a larger box-shadow to create the effect */
     background-color: #00ffc8ad;
 }
