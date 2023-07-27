@@ -10,42 +10,201 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/Experience.css">
 </head>
-<body>
-    <header class="header-main">
-        <div class="header-main-logo">
-            <a href="index.html"><img src="Images/Web-LOGONEW.png" alt="Web logo"></a>
-        </div>
-        <nav class="header-main-nav">
-            <ul>
-                <li><a href="#">01. About</a></li>
-                <li><a href="#">02. Projects</a></li>
-                <li><a href="#">03. Experience</a></li>
-                <li><a href="#">04. Contact</a></li>
-            </ul>
-            <div class="header-main-resume">
-                <a href="">Resume</a>   
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="main-alignment">
-            <div class="main-greeting">
-                <p>Hola!, my name is</p>
-            </div>  
-            <div class="main-name">
-                <h1>Nikko Chan P. Lopera</h1>
-            </div> 
-            <div>
-                <h3>I build things that make the world <br> smarter, faster, better.</h3>
-            </div>
-            <div class="main-desc">
-                <p>I'm a computer engineer specialize in building and designing hardware and software tech base experience. Currently, I am actively seeking an opportunity to further develop my skills and knowledge while embarking on an exciting engineering journey </p>
-            </div>
-            <div class="main-project">
-                <a href="">Check out my Projects!</a>
+<body style="height: 100%;">
+    <div class="PAGE-Layout-Style">
+        <header class="header-main">
+            <nav class="header-main-nav">
+                <div class="header-main-logo">
+                    <a href="index.html"><img src="Images/Web-LOGONEW.png" alt="Web logo"> </a>
+                </div>
+                <div class="header-main-nav-TAGS">
+                    <ol>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ol>
+                    <div class="header-main-resume">
+                        <a href="#">Resume</a>   
+                    </div>
+                </div> 
+            </nav> 
+        </header>
+
+        <div orientation="right" class="LayoutRight">
+            <div class="LayoutRight-Email">
+                <a href="mailto:nikko.lopera@gmail.com">nikko.lopera@gmail.com</a>
             </div>
         </div>
-    </main>
+        <div id="content">
+            
+            <!-- The Hero section of the Website-->
+            <main class="main-fillHeight" >
+                <section class="main-Hero-section-alignment">
+                    <div class="main-greeting">
+                        <p>Hola!, my name is</p>
+                    </div>  
+                    <div class="main-name">
+                        <h1>Nikko Chan P. Lopera.</h1>
+                    </div> 
+                    <div>
+                        <h3>I build things that make the world <br> smarter, faster, better.</h3>
+                    </div>
+                    <div class="main-desc">
+                        <p>I'm a computer engineer specialize in building and designing hardware and software tech base experience. Currently, I am actively seeking an opportunity to further develop my skills and knowledge while embarking on an exciting engineering journey.</p>
+                    </div>
+                    <div class="main-project">
+                        <a href="">Check out my Projects!</a>
+                    </div>
+
+                </section>
+            <!-- The About section of the Website-->
+
+                <section id="about" class="index-about-section" style="visibility: visible;
+                opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+                transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;">
+                
+                <h2 class="index-numbered-heading">
+                    About me
+                </h2>
+                <div class="index-about-inner">
+                    <div class="index-about-unknown">
+                        <div>
+                            <!-- Just add more paragraph if neccesary-->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius, tortor id venenatis volutpat, quam lorem imperdiet mi, quis euismod tortor sapien non nunc. Ut eleifend magna ac arcu pharetra lacinia. Fusce sit amet elit justo. Phasellus ut facilisis quam, in condimentum diam. Praesent non commodo urna, eget placerat lorem. Quisque congue metus est, sit amet fermentum mauris gravida vulputate. Quisque eget magna quis arcu vestibulum congue.
+                            </p>
+                            <p>
+                                Here are few of the skills:
+                            </p>
+                        </div>
+                        <ul class="index-skill-list">
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>HTML & CSS</li>
+                            <li>Microcontroller </li>
+                            <li>Circuit Design</li>
+                            <li>Web Design</li>
+                        </ul>
+                    </div>
+                    <div class="index-about-photo">
+                        <div class="wrapper">
+                            <div class="img">
+                                <div style="max-width: 500px; display: block;">
+                                    
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                </section>
+
+                <section id="jobs" class="Experience-section" style="visibility: visible;opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;">
+                    <h2 class="index-numbered-heading">
+                        My Experience
+                    </h2>
+                    <div class="Experience-section-inner">
+                        <div class="tabs">
+                            <button class="tabs__button" data-for-tab="1" >
+                                <span>Urban Green</span>
+                            </button>
+
+                            <button class="tabs__button" data-for-tab="2">
+                                <span>Robotics </span>
+                            </button>
+                        </div>
+                        <div class="Job-list-Info">
+                            <div class="tabs__content tabs__content--active" data-tab="1">
+                                <h3>
+                                    <span>Automation Engineer</span>
+                                    <span class="Urbangreens"> @ 
+                                        <a href="https://www.linkedin.com/company/eaturbangreens/">Urban Greens </a>
+                                    </span>
+                                </h3>
+                                <p class="range">September 2022 – December 2022</p>
+                                <div>
+                                    <ul>
+                                        <li>Overhauled the hydroponic system by integrating a valve alert system, resulting in substantial cost savings for the company </li>
+                                        <li>Introduced an efficient water tank to reservoir automated refilling system design, significantly enhancing productivity by saving valuable employee time </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="tabs__content" data-tab="2">
+                                <h3>
+                                    <span>University Robotics team</span>
+                                    <span class="Urbangreens"> @ 
+                                        <a href="https://www.facebook.com/DLSAURobotics/">DLSAU Robotics </a>
+                                    </span>
+                                </h3>
+                                <p class="range">Summer 2019 – January 2023</p>
+                                <div>
+                                    <ul>
+                                        <li>Led the development of an engineering design for the robots used on multiple winning competitions  </li>
+                                        <li>Designed and implemented robust and efficient code for the different robotic competitions ensuring seamless operation and contributing to successful outcomes </li>
+                                        <li>Actively engaged in various competitive robotic tournaments, demonstrating exceptional skills, teamwork, and strategic thinking to consistently achieve notable results</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </main>
+                
+        </div>
+        
+    
+    </div>
+
+    <script>
+        function setupTabs(){
+            document.querySelectorAll(".tabs__button") .forEach(button => {
+                button.addEventListener("click", () => {
+                    const sideBar = button.parentElement;
+                    const tabsContainer = sideBar.parentElement;
+                    const tabNumber = button.dataset.forTab;
+                    const tabToActivate = tabsContainer.querySelector(`.tabs__content[data-tab="${tabNumber}"]`);
+
+              
+
+                 
+                    sideBar.querySelectorAll(".tabs__button").forEach(button =>{
+                        button.classList.remove("tabs__button--active");
+
+                    });
+
+                    tabsContainer.querySelectorAll(".tabs__content").forEach(tab =>{
+                        tab.classList.remove("tabs__content--active");
+
+                    });
+                    
+                     button.classList.add("tabs__button--active");
+                     tabToActivate.classList.add("tabs__content--active");
+              
+                });
+            }); 
+        }  
+
+        document.addEventListener("DOMContentLoaded", ()=>{
+            setupTabs();
+
+           // document.querySelectorAll(".tabs").forEach(tabsContainer => {
+          //  tabsContainer.querySelector(".tabs__sidebar .tabs__button").click();
+
+            // });
+        })
+    </script>
 </body>
 </html>

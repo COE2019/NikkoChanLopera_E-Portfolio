@@ -1,0 +1,114 @@
+.Experience-section{
+  max-width: 700px;
+}
+
+.Experience-section .Experience-section-inner{
+  display: flex;
+}
+
+.tabs{
+  position: relative;
+  z-index: 3;
+  width: max-content;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.tabs__button--active{
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  padding: 0px 20px 2px;
+  border-left: 2px solid var(--accent-color); 
+  background-color: transparent;
+  color: var(--accent-color);
+  font-family: var(--default-font);
+  font-size: 13px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.tabs__button{
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  padding: 0px 20px 2px;
+  border-left: 2px solid #057960;
+  background-color: transparent;
+  color: var(--body-text);
+  font-family: var(--default-font);
+  font-size: 13px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.tabs__button:hover, .tabs__button--active:focus{
+  background-color: #2f2f4b;
+}
+
+.tabs__button:hover, .tabs__button--active:focus-visible{
+  color: var(--accent-color);
+    outline: 0px;
+}
+:focus:not(:focus-visible){
+  outline: none;
+    outline-offset: 0px;
+}
+
+.tabs__content--active h3 .Urbangreens{
+  color: var(--accent-color);
+}
+.tabs__content--active .range{
+  margin-bottom: 25px;
+  color: var(--body-text);
+  font-family: var(--default-font);
+  font-size: 13px;
+}
+
+.tabs__content--active ul li::before{
+  content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--accent-color);
+}
+
+.Job-list-Info{
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.tabs__content{
+  width: 100%;
+  height: auto;
+  padding: 10px 5px;
+  display: none;
+}
+
+.tabs__content--active{
+  display: block;
+}
+
+.tabs__content h3{
+  margin-bottom: 2px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+
+
+
