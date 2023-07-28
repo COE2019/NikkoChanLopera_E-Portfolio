@@ -11,7 +11,7 @@ accent color: #00ffc6
     --default-font: 'Lato', sans-serif;
 }
 
-::before, ::after {
+::before ::after {
     box-sizing: inherit;
 }
 
