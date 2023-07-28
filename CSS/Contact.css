@@ -1,14 +1,17 @@
-.Contant-Section{
+.Contact-Section{
     max-width: 600px;
     margin: 0px auto 100px;
     text-align: center;
 }
-
-.Contant-Section .overline::after{
+.Contact-Section .overline::before{
+    font-size: clamp(10px,3vw,15px);
+    position: relative; top: 1px; left:5px ;
+}
+.Contact-Section .overline::after{
     content: none;
 }
 
-.Contant-Section .overline{
+.Contact-Section .overline{
     display: block;
     margin-bottom: 20px;
     color: var(--accent-color);
@@ -24,25 +27,21 @@
     font-weight: 400;
 }
 
-.Contant-Section .title {
+.Contact-Section .title {
     font-size: clamp(40px, 5vw, 60px);
 }
 
-.Contant-Section .email-link{
-    color: var(--accent-color);
-    background-color: transparent;
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
-    padding: 1.25rem 1.75rem;
-    font-size: 14px;
-    font-family: var(--default-font);
-    line-height: 1;
-    text-decoration: none;
-    transition: box-shadow 0.3s, background-color 0.3s;
-    margin-top: 50px;
+.Contact-Section-email a{
+    color: #00ffc6;
+    border: 1px solid #00ffc6;
+    line-height: auto;
+    margin-top: 20px;
+    padding: 15px 23px;
+    border-radius: 3px;
+    transition: box-shadow 0.3s, background-color 0.3s; 
 }
 
-.email-link a:hover{
+.Contact-Section-email a:hover{
     color: var(--title-text);
     box-shadow: 0 0 0 1px #00ffc6; /* Add a larger box-shadow to create the effect */
     background-color: #00ffc8ad;

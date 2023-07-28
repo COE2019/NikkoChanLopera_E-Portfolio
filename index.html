@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikko Lopera</title>
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
@@ -18,16 +19,16 @@
         <header class="header-main">
             <nav class="header-main-nav">
                 <div class="header-main-logo">
-                    <a href="index.html"><img src="Images/Web-LOGONEW.png" alt="Web logo"> </a>
+                    <a href="#Hero"><img src="Images/Web-LOGONEW.png" alt="Web logo"> </a>
                 </div>
                 <div class="header-main-nav-TAGS">
                     <ol>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Experience</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#jobs">Experience</a></li>
+                        <li><a href="#Contact">Contact</a></li>
                     </ol>
                     <div class="header-main-resume">
-                        <a href="#">Resume</a>   
+                        <a href="Documents/Nikko-Chan-Lopera_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>   
                     </div>
                 </div> 
             </nav> 
@@ -35,28 +36,28 @@
 
         <div orientation="right" class="LayoutRight">
             <div class="LayoutRight-Email">
-                <a href="mailto:nikko.lopera@gmail.com">nikko.lopera@gmail.com</a>
+                <a href="mailto:nikko.lopera01@gmail.com">nikko.lopera01@gmail.com</a>
             </div>
         </div>
         <div id="content">
             
             <!-- The Hero section of the Website-->
             <main class="main-fillHeight" >
-                <section class="main-Hero-section-alignment">
+                <section id="Hero" class="main-Hero-section-alignment">
                     <div class="main-greeting">
                         <p>Hola!, my name is</p>
                     </div>  
                     <div class="main-name">
                         <h1>Nikko Chan P. Lopera.</h1>
                     </div> 
-                    <div>
+                    <div class="main-slogan">
                         <h3>I build things that make the world <br> smarter, faster, better.</h3>
                     </div>
                     <div class="main-desc">
                         <p>I'm a computer engineer specialize in building and designing hardware and software tech base experience. Currently, I am actively seeking an opportunity to further develop my skills and knowledge while embarking on an exciting engineering journey.</p>
                     </div>
                     <div class="main-project">
-                        <a href="https://www.instagram.com/imnikkchlo/">Check out my Projects!</a>
+                        <a href="https://www.instagram.com/nikkchlo" target="_blank" rel="noopener noreferrer">Check out my Projects!</a>
                     </div>
 
                 </section>
@@ -74,10 +75,16 @@
                         <div>
                             <!-- Just add more paragraph if neccesary-->
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla varius, tortor id venenatis volutpat, quam lorem imperdiet mi, quis euismod tortor sapien non nunc. Ut eleifend magna ac arcu pharetra lacinia. Fusce sit amet elit justo. Phasellus ut facilisis quam, in condimentum diam. Praesent non commodo urna, eget placerat lorem. Quisque congue metus est, sit amet fermentum mauris gravida vulputate. Quisque eget magna quis arcu vestibulum congue.
+                                Hello! My name is Nikko, and I am passionate about automation, robotics, and artificial intelligence. My journey as an engineer started in high school when I began creating small mods for games like Minecraft and Unturned.
                             </p>
                             <p>
-                                Here are few of the skills:
+                                Fast forward to today, I am thrilled to have had the privilege of attending university, where I met many like-minded individuals who share my interests. During my time there, I became a valuable member of our robotics team and had the opportunity to participate in and win several competitions.
+                            </p>
+                            <p>
+                                Additionally, I had the pleasure of working as an automation engineer intern for a startup company, where I honed my skills and learned from talented and experienced professionals.
+                            </p>
+                            <p>
+                                Here are some of the skills I have acquired throughout my journey:
                             </p>
                         </div>
                         <ul class="index-skill-list">
@@ -94,7 +101,6 @@
                             <div class="img">
                                 <div style="max-width: 500px; display: block;">
                                     
-
                                 </div>
                             </div>
 
@@ -106,7 +112,7 @@
                 </section>
 
                 <section id="jobs" class="Experience-section" style="visibility: visible;opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;">
-                    <h2 class="index-numbered-heading">
+                    <h2 class="index-numbered-heading ">
                         Where I've Worked
                     </h2>
                     <div class="Experience-section-inner">
@@ -130,7 +136,7 @@
                                 <p class="range">September 2022 – December 2022</p>
                                 <div>
                                     <ul>
-                                        <li>Overhauled the hydroponic system by integrating a valve alert system, resulting in substantial cost savings for the company </li>
+                                        <li>Overhauled the hydroponic system by integrating a valve alert system, resulting in substantial cost savings for the company<br><br> </li>
                                         <li>Introduced an efficient water tank to reservoir automated refilling system design, significantly enhancing productivity by saving valuable employee time </li>
                                     </ul>
                                 </div>
@@ -146,8 +152,8 @@
                                 <p class="range">Summer 2019 – January 2023</p>
                                 <div>
                                     <ul>
-                                        <li>Led the development of an engineering design for the robots used on multiple winning competitions  </li>
-                                        <li>Designed and implemented robust and efficient code for the different robotic competitions ensuring seamless operation and contributing to successful outcomes </li>
+                                        <li>Led the development of an engineering design for the robots used on multiple winning competitions  <br><br></li>
+                                        <li>Designed and implemented robust and efficient code for the different robotic competitions ensuring seamless operation and contributing to successful outcomes<br><br> </li>
                                         <li>Actively engaged in various competitive robotic tournaments, demonstrating exceptional skills, teamwork, and strategic thinking to consistently achieve notable results</li>
                                     </ul>
                                 </div>
@@ -156,11 +162,13 @@
                     </div>
                 </section>
 
-                <section id = "Contact" class="Contant-Section">
+                <section id = "Contact" class="Contact-Section">
                     <h2 class="index-numbered-heading overline"> What comes after this?</h2>
                     <h2 class="title">Connect with me</h2>
                     <p>I am actively seeking new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I'll do my best to get in touch!</p>
-                        <a class="email-link" href="mailto:nikko.lopera@gmail.com">Say Hello!</a>
+                       <div class="Contact-Section-email">
+                        <a class="email-link" href="mailto:nikko.lopera01@gmail.com">Say Hello!</a>
+                       </div> 
                     
                 </section>
 
